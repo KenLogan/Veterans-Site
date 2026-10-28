@@ -1,0 +1,68 @@
+/* Reset default browser spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Main page settings */
+html, body{
+    width:100%;
+    min-height:100vh;
+
+    /* Prevent page from becoming too narrow */
+    min-width:320px;
+
+    /* Allow scrolling */
+    overflow-y:auto;
+    overflow-x:hidden;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Background image */
+body{
+
+    /*
+        INSERT IMAGE PATH BELOW
+
+        Example:
+        background-image: url("images/background.jpg");
+    */
+    background-image: url("images\Mission.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    /* Keeps image in place while scrolling */
+    background-attachment:fixed;
+
+    color:white;
+}
+
+/* Main content container */
+.content{
+    min-height:100vh;
+
+    padding:50px;
+
+    /* Optional dark overlay effect */
+    background:rgba(0,0,0,0.35);
+}
+
+/* Example styling */
+h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+h2{
+    margin-top:50px;
+    margin-bottom:15px;
+}
+
+p{
+    line-height:1.6;
+    max-width:900px;
+}
